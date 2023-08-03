@@ -13,8 +13,8 @@
 FROM node:15
 
 WORKDIR /usr/src/app
-#RUN npm install express && \
-#    npm i mysql2
+RUN npm install express && \
+    npm i mysql2
 
 COPY . .
 
